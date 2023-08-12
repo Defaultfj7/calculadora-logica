@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação Lógica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Comparação Lógica</h1>
+    
+    <hr /> 
+
+    <input type="number" placeholder="0" autofocus id="n1" />    
+    <select name=">" id="operador">
+        <option value="maiorQ"> &gt </option>
+        <option value="menorQ"> &lt </option>
+        <option value="maiorIgualQ"> >= </option>
+        <option value="menorIgualQ"> &lt= </option>
+        <option value="diferente"> != </option>
+        <option value="igualdade"> == </option>
+    </select>
+    <input type="number" placeholder="0" id="n2" />
+    <input style="width: 30px;" type="button" value="=" onclick="comparar ()" />
+    <input type="text" id="result" disabled />
+    
+    <hr />
+   
+    <script src="comparacao-logica.js"></script>
+</body>
+</html>
